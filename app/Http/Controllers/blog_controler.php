@@ -43,7 +43,7 @@ class blog_controler extends Controller
   
         Blog::create($request->all());
    
-        return redirect()->route('blogs.index')->with('success','Blog created successfully.');
+        return redirect()->route('blogs.index')->with('success','Task created successfully.');
     
     }
 
@@ -85,7 +85,7 @@ class blog_controler extends Controller
   
         $blog->update($request->all());
   
-        return redirect()->route('blogs.index')->with('success','Blog updated successfully');
+        return redirect()->route('blogs.index')->with('success','Task updated successfully');
     }
 
     /**
@@ -98,6 +98,6 @@ class blog_controler extends Controller
     {
         $blog->delete();
   
-        return redirect()->route('blogs.index')->with('success','Blogs deleted successfully');
+        return redirect()->route('blogs.index')->with('success','Task deleted successfully');
     }
 }

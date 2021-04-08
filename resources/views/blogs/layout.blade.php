@@ -10,7 +10,7 @@
 <body>
 
 <div class="jumbotron text-center">
-  <h1>Laravel CRUD </h1>
+  <h1> TASKS TO DO </h1>
   <p>By: Tirth Shah</p> 
 </div>
   
@@ -19,7 +19,7 @@
 </div> 
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
+  <p>TASKS TO DO</p>
 </div>
 
 </body>
